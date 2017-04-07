@@ -13,7 +13,29 @@ p{
   margin-right: auto;
   margin-left: auto;
   font-family: helvetica;
+
 }
+
+#p1 {
+  background-color: #A52A2A;
+}
+#p2 {
+  background-color: #DEB887;
+}
+
+#p3 {
+  background-color: #FF7F50;
+  width: 95%;
+}
+#p4 {
+  background-color: #FF7F50;
+  width: 10%;
+  height: 3%;
+  position: absolute;
+  right: auto;
+}
+
+
 
 .row {
 width: 100%;
@@ -63,9 +85,9 @@ width: 100%;
   }
 }
 
-@@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
-  .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,{
+  .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
     float: left;
     border: 1px solid green;
   }
@@ -104,5 +126,5 @@ width: 100%;
   }
   .col-md-12{
     width: 100%;
-md
+  }
 }
